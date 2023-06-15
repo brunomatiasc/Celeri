@@ -7,7 +7,7 @@ O processo de verificação das credenciais dos usuários é um dos mais importa
 
 #### **Processo: Cadastro e edição de colaboradores**
 Este processo é restrito aos administradores do sistema e é responsável pelo registro de novos colaboradores (psicólogos) ou edição de seus dados. A partir desse ponto, o colaborador cadastrado tem acesso às funcionalidades da aplicação. A figura abaixo apresenta o mapeamento deste processo.
-![](colaboradores.png)
+![](caolaboradores.png)
 
 #### **Processo: Cadastro e edição de serviços**
 Abaixo é apresentado o mapeamento do processo de cadastro ou edição dos tipos de serviços que são realizados pelo profissional. É possível que um mesmo profissional faça o cadastro de vários serviços, os diferenciando em duração das consultas e valor de cada uma.
