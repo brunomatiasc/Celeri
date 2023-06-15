@@ -30,7 +30,7 @@ Apresentado na figura abaixo, o processo de visualizar o histórico de atendimen
 ![](historico.png)
 
 
-**Diagrama Entidade Relacionamento**
+### **Diagrama Entidade Relacionamento** ### 
 Este diagrama, assim como o diagrama de caso de uso, utiliza da linguagem UML para sua apresentação. O diagrama de classes cria uma representação visual das classes, objetos, atributos e métodos da aplicação, bem como das relações entre eles. Assim como os demais diagramas apresentados anteriormente, o diagrama de classes irá auxiliar na visualização e compreensão do projeto, apresentando de forma clara como a aplicação funcionará. A figura abaixo apresenta o diagrama de classes da aplicação.
 
 ![](DiagramaEntidadeRelacionamento.jpeg)
