@@ -1,49 +1,40 @@
-### **5.3.2 Modelagem de processos**
+### **Modelagem de processos**
 Utilizando a notação para modelagem de processos de negócio BPMN, é realizado o mapeamento dos principais processos, visando documentar os serviços realizados de ponta a ponta. A notação gráfica *Business Process Model and Notation* (BPMN) permite descrever, visualizar e comunicar os processos de negócio de forma clara e concisa. A seguir será apresentado cada um dos mapeamentos realizados.
+
 #### **5.3.2.1 Processo: Login na aplicação**
 O processo de verificação das credenciais dos usuários é um dos mais importantes para a aplicação, responsável por garantir que apenas usuários autenticados e autorizados tenham acesso aos recursos e funcionalidades. Neste projeto, o processo de login tem ainda mais importância, considerando o fato de que a aplicação visa armazenar e gerenciar dados sigilosos dos pacientes, requerendo mais segurança e confiabilidade no processo. Na Figura 4 é apresentado o fluxo deste processo.
 
 ![](login.png)
 
-**Figura 4. BPMN: Login na aplicação**
-#### **5.3.2.2 Processo: Cadastro e edição de colaboradores**
-Este processo é restrito aos administradores do sistema e é responsável pelo registro de novos colaboradores (psicólogos) ou edição de seus dados. A partir desse ponto, o colaborador cadastrado tem acesso às funcionalidades da aplicação. A Figura 5 apresenta o mapeamento deste processo.
-
-![](Aspose.Words.4582bbce-daeb-481f-b870-cbcb0f16f050.005.png)
-
 **Figura 5. BPMN: Cadastro e edição de colaboradores**
 #### **5.3.2.3 Processo: Cadastro e edição de serviços**
 Na Figura 6 é apresentado o mapeamento do processo de cadastro ou edição dos tipos de serviços que são realizados pelo profissional. É possível que um mesmo profissional faça o cadastro de vários serviços, os diferenciando em duração das consultas e valor de cada uma.
 
-![](Aspose.Words.4582bbce-daeb-481f-b870-cbcb0f16f050.006.png)
+![](colaboradores.png)
 
 **Figura 6. BPMN: Cadastro e edição de serviços**
 #### **5.3.2.3 Processo: Cadastro e edição de horários**
 Uma vez cadastrado o serviço, o colaborador necessita cadastrar os horários em que serão realizados os agendamentos daquele serviço. Através do mapeamento apresentado na Figura 7, é possível visualizar o fluxo do processo de cadastro de edição dos horários, possibilitando que o profissional especifique os dias da semana que irá realizar um serviço específico e ainda definir o espaço de tempo disponível para marcação daquele serviço.
 
-**Figura 7 – BPMN: Cadastro e edição de horários**
-#### **5.3.2.4 Processo: Cadastro e edição de clientes**
-Este processo, apresentado na Figura 8, é onde os colaboradores podem registrar os seus clientes na aplicação. É neste processo que os psicólogos podem cadastrar e gerenciar seus pacientes, podendo ainda definir se aquele paciente está ativo ou inativo.
-
-![](Aspose.Words.4582bbce-daeb-481f-b870-cbcb0f16f050.007.png)
+![](servicos.png)
 
 **Figura 8. BPMN: Cadastro e edição de clientes**
 #### **5.3.2.5 Processo: Cadastro e edição de agendamentos**
 É neste processo que os psicólogos podem realizar marcações de agendamentos realizados pelos pacientes. Estes agendamentos servem como base para exibição do calendário do psicólogo e também para o controle dos pagamentos das consultas, onde o colaborador pode definir se a consulta foi paga ou não. A Figura 9 apresenta o mapeamento deste processo.
 
-![](Aspose.Words.4582bbce-daeb-481f-b870-cbcb0f16f050.008.png)
+![](cadastroedicaoclientes.png)
 
 **Figura 9. BPMN: Cadastro e edição de agendamentos**
 #### **5.3.2.5 Processo: Visualização da agenda de atendimento**
 Possibilitando o acompanhamento de suas consultas em tempo real, este processo é responsável por apresentar ao colaborador um calendário exibindo cada uma das consultas existentes. Apresentado na Figura 10, o processo de visualizar a agenda de atendimento é um dos mais importantes da aplicação.
 
-![](Aspose.Words.4582bbce-daeb-481f-b870-cbcb0f16f050.009.png)
+![](agendamentos.png)
 
 **Figura 10. BPMN: Visualizar agenda de atendimento**
 #### **5.3.2.5 Processo: Visualização do histórico de atendimento**
 Apresentado na Figura 11, o processo de visualizar o histórico de atendimento permite que o colaborador visualize, sempre que necessário, todo o histórico de consultas realizado por um paciente em um determinado período, contendo as anotações e informações de cada uma das consultas.
 
-![](Aspose.Words.4582bbce-daeb-481f-b870-cbcb0f16f050.010.png)
+![](historico.png)
 
 **Figura 11. BPMN: Visualizar histórico de atendimento**
 ### **5.3.1 Diagrama Entidade Relacionamento**
