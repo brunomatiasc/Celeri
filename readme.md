@@ -21,10 +21,6 @@ Este processo é onde os colaboradores podem registrar os seus clientes na aplic
 É neste processo que os psicólogos podem realizar marcações de agendamentos realizados pelos pacientes. Estes agendamentos servem como base para exibição do calendário do psicólogo e também para o controle dos pagamentos das consultas, onde o colaborador pode definir se a consulta foi paga ou não. A figura abaixo apresenta o mapeamento deste processo.
 ![](agendamentos.png)
 
-#### **Processo: Cadastro e edição de agendamentos**
-É neste processo que os psicólogos podem realizar marcações de agendamentos realizados pelos pacientes. Estes agendamentos servem como base para exibição do calendário do psicólogo e também para o controle dos pagamentos das consultas, onde o colaborador pode definir se a consulta foi paga ou não. A figura abaixo apresenta o mapeamento deste processo.
-![](agendamentos.png)
-
 #### **Processo: Visualização da agenda de atendimento**
 Possibilitando o acompanhamento de suas consultas em tempo real, este processo é responsável por apresentar ao colaborador um calendário exibindo cada uma das consultas existentes. Apresentado na figura abaixo, o processo de visualizar a agenda de atendimento é um dos mais importantes da aplicação.
 ![](agenda.png)
